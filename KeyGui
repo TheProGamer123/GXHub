@@ -19,7 +19,7 @@ background.BorderSizePixel = 0
 background.ClipsDescendants = true
 background.Parent = frame
 
-local keyTextBox = Instance.new("Enter the key")
+local keyTextBox = Instance.new("TextBox")
 keyTextBox.Name = "KeyTextBox"
 keyTextBox.Size = UDim2.new(0.8, 0, 0.4, 0)
 keyTextBox.Position = UDim2.new(0.1, 0, 0.2, 0)
